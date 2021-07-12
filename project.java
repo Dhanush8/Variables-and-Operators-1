@@ -12,7 +12,7 @@ public class Abc {
         System.out.print("Enter your last name: ");
         String lastName=sc.nextLine();
 
-        String fullName=firstName+lastName;
+        String fullName=firstName+" "+lastName;
 
         System.out.print("Your full name is: "+fullName);
 }
